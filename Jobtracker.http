@@ -1,6 +1,39 @@
 @Jobtracker_HostAddress = http://localhost:5103
 
-GET {{Jobtracker_HostAddress}}/weatherforecast/
+
+GET {{Jobtracker_HostAddress}}/
 Accept: application/json
+
+
+GET {{Jobtracker_HostAddress}}/jobs
+Accept: application/json
+
+
+
+
+GET {{Jobtracker_HostAddress}}/jobs?status=Applied
+Accept: application/json
+
+
+POST {{Jobtracker_HostAddress}}/jobs
+Content-Type: application/json
+
+{
+  "company": "Microsoft",
+  "position": "Software Engineer",
+  "status": "Applied"
+}
+
+###
+
+### Update a job
+PUT {{Jobtracker_HostAddress}}/jobs/1
+Content-Type: application/json
+
+{
+  "company": "Microsoft",
+  "position": "Senior Software Engineer",
+  "status": "Interview"
+}
 
 ###
