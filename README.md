@@ -20,7 +20,7 @@ This project is a fullstack system where users can:
 
 
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 **Frontend**
 
@@ -43,7 +43,7 @@ This project is a fullstack system where users can:
 
 
 
-## 🔥 Key Features
+##  Key Features
 
 * Full CRUD API for job management
 * Filtering jobs by status
@@ -53,7 +53,7 @@ This project is a fullstack system where users can:
 
 
 
-## 🏗️ Architecture
+##  Architecture
 
 
 React (Frontend)
@@ -77,3 +77,5 @@ npm run dev
 
 
 ## 📸 Screenshots
+
+![App Screenshot](./jobtracker-frontend/assets/appss.png)
